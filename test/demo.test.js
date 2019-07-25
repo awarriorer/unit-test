@@ -1,12 +1,4 @@
-
-describe('demo1.js', function() {
-	
-	it('test isNum() has error!.', function() {
-		expect(isNum(1)).toBe(true)
-		expect(isNum('1')).toBe(false)
-	})
-
-})
+import add from '@/demo2.js'
 
 describe('demo2.js', function() {
 
@@ -14,5 +6,4 @@ describe('demo2.js', function() {
 		expect(add(1,1)).toBe(2)
 		expect(add(1,2)).toBe(4)
 	})
-
 })
